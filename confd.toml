@@ -1,5 +1,4 @@
 backend = "etcd"
 confdir = "/etc/confd"
 debug = true
-interval = 10
 watch = true

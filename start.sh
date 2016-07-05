@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #[ -e /run/nginx.pid ] && kill `cat /run/nginx.pid`
-#nginx &
-#
+nginx &
+
 /usr/local/bin/confd -node ${ETCD_NODES}
 
-sleep 10
+sleep 5

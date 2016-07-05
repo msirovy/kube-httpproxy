@@ -11,7 +11,7 @@ RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC64107
 
 ENV ETCD_NODES=""
 
-RUN mkdir -p /etc/confd/{templates,conf.d}
+RUN mkdir -p /etc/confd/
 COPY bashrc /root/.bashrc
 COPY vim.tiny /etc/vim/vim.tiny
 COPY vim.tiny /etc/vim/vim

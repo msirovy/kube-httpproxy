@@ -6,4 +6,4 @@ owner = "root"
 mode = "0644"
 
 check_cmd = "/usr/sbin/nginx -t"
-reload_cmd = "kill `cat /run/nginx.pid`; /usr/sbin/nginx"
+reload_cmd = "kill -HUP `cat /run/nginx.pid`"
