@@ -2,9 +2,4 @@ backend = "etcd"
 confdir = "/etc/confd"
 debug = true
 interval = 10
-nodes = [
-  "http://127.0.0.1:2379",
-]
 watch = true
-#quiet = true
-
