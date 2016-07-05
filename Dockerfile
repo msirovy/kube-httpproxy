@@ -13,8 +13,8 @@ ENV ETCD_NODES=""
 
 RUN mkdir -p /etc/confd/{templates,conf.d}
 COPY bashrc /root/.bashrc
-COPY vim.tiny /etc/vimrc/vim.tiny
-COPY vim.tiny /etc/vimrc/vim
+COPY vim.tiny /etc/vim/vim.tiny
+COPY vim.tiny /etc/vim/vim
 COPY confd /usr/local/bin/confd
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY index.html /usr/share/nginx/html/index.html
